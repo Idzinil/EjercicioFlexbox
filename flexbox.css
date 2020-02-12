@@ -1,0 +1,144 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background:#296d79;
+  color: white;
+  max-width:100%;
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+p {
+  font-size: 17px;
+}
+
+.titleHeader {
+  color: white;
+  padding: 20px;
+  }
+
+/*section {
+  padding: 10px;
+}*/
+
+.menu {
+  color: white;
+  padding: 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.mainContainer {
+  margin: 0% 6% 0% 6%;
+}
+
+.firstPart {
+  border: 2px solid #E8E8E8;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+
+.firstArticle {
+  width: 60%;
+}
+
+.firstImage img{
+  width: 650px;
+  height: 200px;
+  padding-right: 15px;
+  padding-left: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameFirstPic {
+  font-weight: bold;
+  color: #296d79;
+  text-align: center;
+}
+
+.secondPart {
+  display: flex;
+}
+
+.secondArticle {
+  border: 2px solid #E8E8E8;
+  padding: 10px;
+  text-align: justify;
+}
+
+.thirdPart {
+  border-right: 2px solid #E8E8E8;
+  border-top: 2px solid #E8E8E8;
+  width: 128%;
+  padding-left: 5px;
+}
+
+.imageCats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.secondImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #A9A9A9;
+  padding-bottom: 30px;
+  /*max-width: 45%;*/
+  margin: 2%;
+}
+
+.secondImage img {
+  padding: 2px 2px 2px 2px;
+  width: 150px;
+  height: 120px;
+}
+
+.secondImage:hover {
+  background-color: #E8E8E8;
+}
+
+.nameSecondPic {
+  font-style: italic;
+  color: gray;
+  text-align: center;
+}
+
+footer {
+  background:#296d79;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*
+https://www.youtube.com/watch?v=lAoeALwWKo0
+
+
+https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html
+
+
+http://www.falconmasters.com/web-design/sitio-web-layout-flexbox/
+*(
